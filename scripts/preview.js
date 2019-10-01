@@ -6,7 +6,7 @@
 const bot = require("circle-github-bot").create();
 
 const links = [
-    bot.artifactLink("packages/docs-app/dist/index.html", "documentation"),
+    bot.artifactLink("packages/docs-app/dist/index.html", "documentation and analysis"),
     bot.artifactLink("packages/landing-app/dist/index.html", "landing"),
     bot.artifactLink("packages/table-dev-app/dist/index.html", "table"),
 ].join(" | ");
